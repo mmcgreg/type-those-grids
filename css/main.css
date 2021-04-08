@@ -20,8 +20,8 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "banner banner banner"
-  "box1 box2 box3";
+    "banner banner banner"
+    "box1 box2 box3";
   gap: .75rem;
 }
 
@@ -36,8 +36,7 @@ main {
   padding: 1.5rem 1rem;
 }
 
-.bannertext h2
-.bannertext p {
+.bannertext h2 .bannertext p {
   margin-bottom: 0;
 }
 
@@ -61,4 +60,28 @@ h2 {
 
 p {
   margin: 0 0 1.5rem;
+}
+
+figure {
+  margin: 0;
+}
+
+figure h2 {
+  margin-bottom: 0;
+}
+
+figcaption {
+  padding: 1rem;
+}
+
+dl {
+  margin: 0;
+}
+
+dt {
+  font-style: italic;
+}
+
+dd {
+  margin-left: 1rem;
 }
